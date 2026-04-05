@@ -1,0 +1,108 @@
+📁 NutriRecetas-GitHub/
+│
+├── 📄 README.md                    ← Documentación principal
+├── 📄 SETUP.md                     ← Guía de configuración paso a paso  
+├── 📄 FEATURES.md                  ← Guía de funcionalidades avanzadas
+├── 📄 package.json                 ← Dependencias y scripts
+├── 📄 .env.local                   ← Credenciales Firebase (NO SUBIR A GIT)
+├── 📄 .env.example                 ← Plantilla de variables
+├── 📄 .gitignore                   ← Archivos ignorados en git
+├── 📄 LICENSE.md                   ← Licencia MIT
+│
+├── 📁 public/
+│   └── 📄 index.html               ← HTML principal
+│
+└── 📁 src/
+    ├── 📄 index.jsx                ← Punto de entrada React
+    ├── 📄 App.jsx                  ← Componente principal
+    └── 📄 App.css                  ← Estilos globales
+
+═══════════════════════════════════════════════════════════════════
+
+🚀 FLUJO DE TRABAJO:
+
+1. LOCAL (Tu computadora)
+   → npm install
+   → npm start
+   → Desarrollo en http://localhost:3000
+
+2. GITHUB (Repositorio)
+   → git push origin main
+   → Código en la nube
+
+3. GITHUB PAGES (Hosting)
+   → npm run deploy
+   → App en vivo en https://tu-usuario-github.github.io/nutrirecetas
+
+4. FIREBASE (Base de datos)
+   → React se conecta automáticamente
+   → Datos guardados en tiempo real
+
+═══════════════════════════════════════════════════════════════════
+
+📊 TECNOLOGÍAS:
+
+├── Frontend
+│   ├── React 18 (UI)
+│   ├── Lucide Icons (Iconos)
+│   └── CSS-in-JS (Estilos)
+│
+├── Backend/BD
+│   ├── Firebase Realtime Database (Datos)
+│   └── Firebase Auth (Login anónimo)
+│
+├── IA
+│   └── Anthropic Claude API (Generación recetas)
+│
+├── Hosting
+│   ├── GitHub Pages (Servidor web gratis)
+│   └── GitHub Repository (Control versiones)
+│
+└── Herramientas
+    ├── Node.js (Runtime)
+    └── npm (Gestor paquetes)
+
+═══════════════════════════════════════════════════════════════════
+
+🔑 ARCHIVOS IMPORTANTES:
+
+.env.local
+├── REACT_APP_FIREBASE_API_KEY
+├── REACT_APP_FIREBASE_AUTH_DOMAIN
+├── REACT_APP_FIREBASE_DATABASE_URL
+├── REACT_APP_FIREBASE_PROJECT_ID
+├── REACT_APP_FIREBASE_STORAGE_BUCKET
+├── REACT_APP_FIREBASE_MESSAGING_SENDER_ID
+└── REACT_APP_FIREBASE_APP_ID
+
+package.json
+├── "homepage": URL de GitHub Pages
+├── "start": npm start (desarrollo)
+├── "build": npm run build (producción)
+├── "deploy": npm run deploy (GitHub Pages)
+└── dependencies: react, firebase, lucide-react
+
+═══════════════════════════════════════════════════════════════════
+
+✨ CARACTERÍSTICAS INCLUIDAS:
+
+✅ Dashboard con estadísticas
+✅ Gestión de despensa
+✅ Generador de recetas con IA (por ingredientes)
+✅ Generador de recetas con IA (por macronutrientes)
+✅ Biblioteca de recetas guardadas
+✅ Menú semanal personalizado (Tú, Marido, Hijo)
+✅ Lista de compra con sincronización en tiempo real
+✅ Compartición de lista de compra (código)
+✅ Base de datos en la nube (Firebase)
+✅ Interfaz moderna y responsiva
+
+═══════════════════════════════════════════════════════════════════
+
+📋 PRIMEROS PASOS:
+
+1. Lee INICIO_RAPIDO.md (5 min)
+2. Sigue los 5 pasos
+3. Tu app estará en vivo
+
+═══════════════════════════════════════════════════════════════════
