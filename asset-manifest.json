@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nutrirecetas/static/css/main.1ffb3e25.css",
+    "main.js": "/nutrirecetas/static/js/main.72b80e80.js",
+    "index.html": "/nutrirecetas/index.html",
+    "main.1ffb3e25.css.map": "/nutrirecetas/static/css/main.1ffb3e25.css.map",
+    "main.72b80e80.js.map": "/nutrirecetas/static/js/main.72b80e80.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ffb3e25.css",
+    "static/js/main.72b80e80.js"
+  ]
+}
